@@ -502,7 +502,7 @@ main {
 }
 #projects li {
     margin-top: 10px;
-    background-color: rgba(150, 150, 150,0.7);
+    background-color: rgba(170, 170, 170,0.7);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(80,80,80,0.7);
 }
@@ -558,7 +558,7 @@ main {
 }
 #blog li {
     margin-top: 10px;
-    background-color: rgba(150, 150, 150,0.7);
+    background-color: rgba(170, 170, 170,0.7);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(80,80,80,0.7);
 }
