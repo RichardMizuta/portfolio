@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     height: 2700px;
     position: relative;
-    background: linear-gradient(rgba(0,51,102),rgba(255, 136, 0, 0.799));
+    background: linear-gradient(15deg,rgba(215, 96, 0, 0.799),rgba(0,51,102) 30%);
     background-size: cover;
 }
 a {
@@ -408,10 +408,10 @@ main {
 }
 #about .photo img {
     border-radius: 50%;
-    width: 420px;
-    height: 420px;
-    margin: 0 auto;
-    display: block;   
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+       
 }
 #about .photo p {
     text-align: center;
@@ -437,7 +437,7 @@ main {
 #about .profile .title::after {
     content: "";
     display: block;
-    border-bottom: 3px solid rgba(255,135,0);
+    border-bottom: 3px solid rgba(255, 136, 0, 0.799);
     width: 20%;
     left: 0;
     position: absolute;
@@ -452,15 +452,16 @@ main {
     font-size: 1.0rem;
 }
 #about .profile .skill ul {
+    flex-wrap: wrap;
     margin-top: 10px;
-    width: 70%;
+    width: 65%;
     display: flex;
 }
 #about .profile .skill li {
     margin-right: 10px;
 } 
 #about .profile .skill img {
-    width: 70px;
+    width: 50px;
     display: flex;
 }
 #about .profile .contact ul {
